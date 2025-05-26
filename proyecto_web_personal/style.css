@@ -1,0 +1,77 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+.espaciado{
+    width: 90%;
+    margin: 0 auto;
+}
+.centrado{
+    text-align: center;
+}
+.blanco{
+color: white;
+}
+.justificado{
+text-align: justify;  
+}
+
+.margen_arriba{
+margin-top: 3%;
+}
+
+.tit{
+padding-top: 2%;
+padding-bottom: 2%;
+background-color: #00000080;
+font-size: 34px;
+}
+
+.img-botas{
+    border-radius:20px 20px 0px 0px;
+    border-bottom:solid 1px #bababa;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.banner1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20%;
+}
+.info{
+font-size: 20px;
+}
+.boton_tiendas{
+background-color: #ffe100a0;
+border: 0px;
+border-radius: 25px;
+padding: 1%;
+}
+.logo{
+    width: 50%;
+}
+
+.banner2-imgs {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+    gap: 2%;
+}
+.cards {
+    width: 100%;
+    max-width: 100%;
+    border: solid 1px #bababa;
+    border-radius: 20px;
+}
+
+.nom_botas{
+    padding: 3%;
+}
+.natural{
+font-size: 20px;
+}

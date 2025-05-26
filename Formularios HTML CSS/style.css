@@ -1,0 +1,91 @@
+.head {
+    color: white;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(228, 228, 228);
+    padding: 0;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.formu {
+    width: 100%;
+    margin-top: 2rem;
+    padding: 4%;
+    background-color: white;
+    border-radius: 20px;
+    border: solid 1px;
+    border-color: grey;
+
+
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+button {
+    margin-top: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.hijos {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentarios {
+    display: flex;
+    height: 4rem;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.display {
+    display: flex;
+    gap: 20px
+}
+
+footer {
+    margin-top: 20px;
+    height: 2rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 15px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.todo {
+    margin: 0 auto;
+    width: 25%;
+}
